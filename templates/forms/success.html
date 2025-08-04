@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="success-container">
+        <div class="success-content">
+            <h1>Sucesso!</h1>
+            <div class="success-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <p>Sua solicitação foi enviado para o unico ADM, chamado Tomé 🫡</p>
+            <a href="{% url 'home' %}" class="back-button">Voltar para tela de cadastro</a>
+        </div>
+    </div>
+
+    <style>
+        .success-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .success-content {
+            text-align: center;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .success-icon {
+            font-size: 4rem;
+            color: #0d6efd;
+            margin: 1rem 0;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #0d6efd;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</body>
+</html>

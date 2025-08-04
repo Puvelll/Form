@@ -1,0 +1,28 @@
+main{
+    margin-top: 40px;
+    margin-inline: 24px;
+}
+
+main > form{
+    display: grid;
+    gap: 10%;
+
+    & input{
+        height: 40px;
+        border-radius: 7px;
+    }
+
+    & select{
+        height: 40px;
+        border-radius: 7px;
+    }
+
+    & button{
+        height: 40px;
+        border-radius: 7px;
+    }
+
+    & #form-sobre-voce{
+        height: 100px;
+    }
+}
